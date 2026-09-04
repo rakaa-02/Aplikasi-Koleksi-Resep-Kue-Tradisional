@@ -92,7 +92,7 @@ export const dummyRecipes: Recipe[] = [
     duration: '4 jam',
     difficulty: 'Sulit',
     isPremium: true,
-    imageUrl: 'https://picsum.photos/seed/gudeg/400/300',
+    imageUrl: 'https://i.pinimg.com/1200x/a2/25/22/a22522cd53d03f825db2106496febdd0.jpg',
     servings: '5 Porsi',
     rating: 4.9,
     ingredients: ['Nangka Muda', 'Gula Jawa', 'Santan', 'Telur Bacem & Ayam'],

@@ -11,8 +11,9 @@ export default function LoginScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
-        <Text style={styles.title}>Dapur Nusantara</Text>
-        <Text style={styles.subtitle}>Eksplor & Masak Resep Warisan Leluhur</Text>
+      
+        <Text style={styles.title}>Welcome To App</Text>
+        <Text style={styles.subtitle}>Resep Makanan Tradisional</Text>
 
         <View style={styles.form}>
           <Text style={styles.label}>Email / No. Handphone</Text>
@@ -24,10 +25,10 @@ export default function LoginScreen() {
             onChangeText={setEmail}
           />
 
-          <Text style={styles.label}>Kata Sandi</Text>
+          <Text style={styles.label}>Password</Text>
           <TextInput
             style={styles.input}
-            placeholder="Masukkan kata sandi"
+            placeholder="Masukkan Password"
             placeholderTextColor={colors.textMuted}
             secureTextEntry
             value={password}

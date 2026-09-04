@@ -93,8 +93,7 @@ export default function RecipeDetailScreen() {
       {/* Floating Action Button */}
       <View style={styles.footer}>
         <TouchableOpacity style={styles.cookButton}>
-          <Ionicons name="play" size={18} color={colors.white} />
-          <Text style={styles.cookButtonText}>Mulai Masak Sekarang</Text>
+          <Text style={styles.cookButtonText}>Simpan Resep</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

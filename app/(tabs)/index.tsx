@@ -23,7 +23,7 @@ export default function DashboardScreen() {
         {/* Header Greeting */}
         <View style={styles.header}>
           <View>
-            <Text style={styles.greeting}>Halo Budi</Text>
+            <Text style={styles.greeting}>Selamat Datang</Text>
             <Text style={styles.subGreeting}>Mau masak resep tradisional apa hari ini?</Text>
           </View>
         </View>
@@ -32,7 +32,7 @@ export default function DashboardScreen() {
         <View style={styles.searchContainer}>
           <Feather name="search" size={20} color={colors.textMuted} />
           <TextInput
-            placeholder="Cari resep klepon, rendang, soto..."
+            placeholder="Cari resep makanan tradisional"
             placeholderTextColor={colors.textMuted}
             style={styles.searchInput}
           />
